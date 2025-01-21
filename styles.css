@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Naturaly';
+    src: url('assets/Naturaly.otf') format('opentype');
+}
+
 /* General Reset */
 * {
     margin: 0;
@@ -14,9 +19,9 @@ html, body {
 
 /* Body and Background */
 body {
-    font-family: 'Open Sans', sans-serif;
-    color: #fff;
-    background: url('https://github.com/user7210unix/Showcase-website/blob/main/Images/image.png?raw=true') no-repeat center center fixed;
+    font-family: 'Naturaly', sans-serif;
+    color: #e5f3ff;
+    background-image: url('https://raw.githubusercontent.com/user7210unix/Showcase-website/refs/heads/main/Images/image1.png');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -35,7 +40,7 @@ body {
 }
 
 .title {
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bold;
     color: white;
     padding: 10px 20px;
@@ -60,7 +65,7 @@ body {
                 0 10px 10px -3.75px #00000010;
     backdrop-filter: blur(30px); /* Added blur to match setup-box */
     color: white;
-    font-size: 16px;
+    font-size: 36px;
     cursor: pointer;
     transition: transform 0.2s, box-shadow 0.3s;
 }
@@ -121,7 +126,7 @@ body {
 
 .setup-title {
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 34px;
     font-weight: bold;
     color: white;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
