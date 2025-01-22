@@ -84,9 +84,6 @@ body {
     align-items: center;
 }
 
-/* Page Layout */
-
-}
 .page.active {
     display: grid;
 }
