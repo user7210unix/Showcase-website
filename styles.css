@@ -45,6 +45,7 @@ body {
     color: white;
     padding: 10px 20px;
     background: rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
     border-radius: 20px;
     box-shadow: inset 1px 1.5px 2px #fff9, inset 1px -0.5px 2px #ffffff4d,
                 0 0.602px 0.602px -1.25px #0000002e,
