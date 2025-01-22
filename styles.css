@@ -92,10 +92,6 @@ body {
     align-content: center;
 }
 
-.page.active {
-    display: grid;
-}
-
 /* Card Styling */
 .card {
     width: 100%;
