@@ -85,12 +85,7 @@ body {
 }
 
 /* Page Layout */
-.page {
-    display: none;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    justify-content: center;
-    align-content: center;
+
 }
 .page.active {
     display: grid;
